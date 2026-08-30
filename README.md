@@ -111,11 +111,13 @@ GET /weather/weekly?city=Tokyo
 poetry run pytest -v
 
 ### coverage計測
-poetry run coverage run -m pytest -v 
+poetry run coverage run -m pytest -v
+
 poetry run coverage report
 
 ### HTMLレポート生成
-poetry run coverage html 
+poetry run coverage html
+
 htmlcov/index.html をブラウザで開くと詳細が確認できます。
 
 ## テスト手法
