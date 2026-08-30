@@ -2,7 +2,9 @@
 
 ## プロジェクト概要
 FastAPI + 非同期処理 + Redisキャッシュ + 外部API連携の天気情報APIです。
-外部 API（OpenWeatherMap）を httpx で非同期アクセスし、Redis にキャッシュすることで高速化しています。  
+
+外部 API（OpenWeatherMap）を httpx で非同期アクセスし、Redis にキャッシュすることで高速化しています。 
+
 pytest + respx による 完全モックテスト、coverage による 100% テストカバレッジ を達成しています。
 
 ## Swagger UI
