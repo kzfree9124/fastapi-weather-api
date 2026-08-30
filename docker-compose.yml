@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    container_name: weather_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7
+    container_name: weather_redis
+    ports:
+      - "6379:6379"
