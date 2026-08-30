@@ -145,3 +145,6 @@ Redis を完全モックしてキャッシュの挙動を再現。
 ```
 docker-compose up -d
 ```
+
+## License
+This project is licensed under the MIT License.
